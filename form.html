@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="text.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="logo1" src="images/logo1.png" alt="balloon dog logo">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Pet Care Tips
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="dog.html">Dog Owners</a>
+                    <a href="cat.html">Cat Owners</a>
+                    <a href="small_pets.html">Small Pets</a>
+
+                </div>
+              </div>
+            <div class="dropdown">
+              <button class="dropbtn">Contact Us
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="index.html#socials">Social Media</a>
+                <a href="form.html" class="active">Pexperts</a>
+              </div>
+            </div>
+            <a href="faq.html">FAQ</a>
+           
+          </div> <input class="submit" type="text" placeholder="Search.." name="search" >
+            <button type="submit"><i class="fa fa-search"></i></button>
+          <header><img src="images/logo2.png" alt="Paradigm Pet Professionals logo"></header>
+    <div class="form">
+        <form action="/action_page.php">
+            <h3>About You</h3>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="pnumber">Phone Number</label>
+          <input type="tel" id="pnumber" name="phonenumber" placeholder="Telephone">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Email Address">
+          <label for="timezone">Time Zone</label>
+          <select id="timezone" name="timezone">
+            <option value="central-standard-time">Central Standard Time (GMT-6)</option>
+            <option value="">Mountain Standard Time (GMT-7)</option>
+            <option value="">Pacific Standard Time (GMT-8)</option>
+            <option value="">Alaska Standard Time (GMT-9)</option>
+            <option value="">Hawaii-Aleutian Standard Time (GMT-10)</option>
+          </select>
+
+          <h3>About Your Pet</h3>
+          <label for="petname">Pet's Name</label>
+          <input type="text" id="petname" name="petname" placeholder="ex. Lucy">
+          <label for="pettype">Pet Type</label>
+          <input type="text" id="pettype" name="pettype" placeholder="ex. Fish">
+          <label for="petage">Pet's Age</label>
+          <input type="number" id="petage" name="petname" placeholder="12" max="200">
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>

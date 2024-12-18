@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    
+    color: #003B6D;
+}
+a{
+    color:#003B6D ;
+    text-decoration: none;
+}
+section a:hover{
+    color: #6699CC;
+}
+
+.submit {
+    margin: 2% 0;
+}

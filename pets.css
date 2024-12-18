@@ -1,0 +1,65 @@
+header img {
+    width: 30%;
+    position: relative;
+    left:35%
+}
+
+pic-container div {
+    width: 400px;
+}
+
+section {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section img {
+    
+    width: 450px;
+    height: 324px;
+    
+}
+
+hr {
+    width: 80%;
+   }
+
+footer ul {
+    width: 100%;
+}
+
+#socials {
+    display: flex; 
+    padding: 0; 
+    box-sizing: border-box;
+    
+    
+}
+
+#socials li {
+    display: inline-block; 
+    list-style: none;
+    margin:2%;
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+    
+}
+
+#socials li:hover {
+    transform: scale(1.3); 
+}
+
+
+@media screen and (max-width: 430px) {
+    section img {
+    
+        width: 330px;
+        height: 200px;
+        
+    }
+    
+}
